@@ -1,6 +1,6 @@
 local function main()
 	-- Load the couplets from the external file
-	local ashaar = require("ashaar_list")
+	local ashaar = require("ashaar.ashaar_list")
 
 	local authors = {}
 
