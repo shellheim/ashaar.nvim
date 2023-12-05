@@ -22,7 +22,10 @@ local function main()
 
 	local function getCouplet()
 		local authorCouplet = ashaar[randomAuthor]
-		math.randomseed(os.time() + os.clock())
+		math.randomseed(os.time() * os.clock())
+		-- Randomizes better if you call a few before
+		math.random()
+		math.random()
 		local randomCoupletIndex = math.random(1, #authorCouplet)
 		couplet = authorCouplet[randomCoupletIndex]
 		return couplet
