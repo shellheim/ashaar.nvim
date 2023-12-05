@@ -1,5 +1,7 @@
 # ashaar.nvim
 
+![ashaar.nvim](https://github.com/shellheim/ashaar.nvim/assets/116480892/332e0340-55d9-4995-a755-1bac8e6477de)  
+
 This is a little neovim plugin I wrote, inspired by [fortune](https://github.com/BlakeJC94/alpha-nvim-fortune) though this is specifically designed for couplets.
 
 A single couplet in urdu is called a `sher` while a collection of them is called `ash'aar`.
