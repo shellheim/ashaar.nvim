@@ -1,6 +1,6 @@
 local function main()
 	-- Load the couplets from the external file
-	local ashaar = require("ashaar.ashaar_list")
+	local ashaar = require("ashaar_list")
 
 	local authors = {}
 
@@ -22,10 +22,7 @@ local function main()
 
 	local function getCouplet()
 		local authorCouplet = ashaar[randomAuthor]
-		math.randomseed(os.time() * os.clock())
-		-- Randomizes better if you call a few before
-		math.random()
-		math.random()
+		math.randomseed(os.time())
 		local randomCoupletIndex = math.random(1, #authorCouplet)
 		couplet = authorCouplet[randomCoupletIndex]
 		return couplet
@@ -63,4 +60,5 @@ local function main()
 	formatString(line1, line2, randomAuthor)
 	return formattedString
 end
+
 return main
