@@ -1,6 +1,7 @@
 # ashaar.nvim
 
-![ashaar.nvim](https://github.com/shellheim/ashaar.nvim/assets/116480892/332e0340-55d9-4995-a755-1bac8e6477de)
+![Screenshot](https://github.com/shellheim/ashaar.nvim/assets/116480892/a618e629-53f4-4f5e-b22f-29ef18b6284f)
+
 
 This is a little neovim plugin I wrote, inspired by [fortune](https://github.com/BlakeJC94/alpha-nvim-fortune) though this is specifically designed for couplets.
 
