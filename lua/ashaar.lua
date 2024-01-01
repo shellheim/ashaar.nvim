@@ -28,13 +28,13 @@ local function main()
 		return couplet
 	end
 
-	local function formatCouplet(couplet)
-		line1, line2 = string.match(couplet, "^(.-) : (.+)$")
+	local function formatCouplet(string)
+		line1, line2 = string.match(string, "^(.-) : (.+)$")
 		return line1, line2
 	end
 
-	local function formatString(line1, line2, randomAuthor)
-		local maxLength = math.max(#line1, #line2)
+	local function formatString(firstLine, secondLine, author)
+		local maxLength = math.max(#firstLine, #secondLine)
 
 		local function padToCenter(line, length)
 			local padding = math.floor((length - #line) / 2)
@@ -42,18 +42,18 @@ local function main()
 		end
 
 		-- add '-' before the author's name
-		randomAuthor = "- " .. randomAuthor
+		author = "- " .. author
 
 		-- Center the couplet lines w.r.t the longest line
-		local centeredLine1 = padToCenter(line1, maxLength)
-		local centeredLine2 = padToCenter(line2, maxLength)
+		local centeredLine1 = padToCenter(firstLine, maxLength)
+		local centeredLine2 = padToCenter(secondLine, maxLength)
 		-- Spacing between couplet and author, don't why chaining two '\n' doesn't work on line 49.
-		local centeredAuthor = " \n " .. padToCenter(randomAuthor, maxLength)
+		local centeredAuthor = " \n " .. padToCenter(author, maxLength)
 
 		formattedString = " \n " .. centeredLine1 .. " \n " .. centeredLine2 .. "\n" .. centeredAuthor
 		return formattedString
 	end
-
+	-- Call everything and return the actual text to display
 	getAuthor()
 	getCouplet()
 	formatCouplet(couplet)
