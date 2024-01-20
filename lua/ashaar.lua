@@ -47,7 +47,7 @@ local function main()
 		-- Center the couplet lines w.r.t the longest line
 		local centeredLine1 = padToCenter(firstLine, maxLength)
 		local centeredLine2 = padToCenter(secondLine, maxLength)
-		-- Spacing between couplet and author, don't why chaining two '\n' doesn't work on line 49.
+		-- Spacing between couplet and author, don't know why chaining two '\n's doesn't work on line 49.
 		local centeredAuthor = " \n " .. padToCenter(author, maxLength)
 
 		formattedString = " \n " .. centeredLine1 .. " \n " .. centeredLine2 .. "\n" .. centeredAuthor
