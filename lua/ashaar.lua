@@ -17,6 +17,11 @@ local function main()
 	local function getAuthor()
 		local randomAuthorIndex = math.random(1, #authors)
 		randomAuthor = authors[randomAuthorIndex]
+
+		-- Change John_Smith to John Smith
+		if string.find(randomAuthor, "_") then
+			randomAuthor = randomAuthor.gsub(randomAuthor, "_", " ")
+		end
 		return randomAuthor
 	end
 
@@ -47,6 +52,7 @@ local function main()
 		-- Center the couplet lines w.r.t the longest line
 		local centeredLine1 = padToCenter(firstLine, maxLength)
 		local centeredLine2 = padToCenter(secondLine, maxLength)
+
 		-- Spacing between couplet and author, don't know why chaining two '\n's doesn't work on line 49.
 		local centeredAuthor = " \n " .. padToCenter(author, maxLength)
 
