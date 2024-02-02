@@ -15,21 +15,23 @@ local function main()
 	local formattedString
 
 	local function getAuthor()
-		local randomAuthorIndex = math.random(1, #authors)
+		math.randomseed(os.time())
+		local randomAuthorIndex = math.random(#authors)
 		randomAuthor = authors[randomAuthorIndex]
-
-		-- Change John_Smith to John Smith
-		if string.find(randomAuthor, "_") then
-			randomAuthor = randomAuthor.gsub(randomAuthor, "_", " ")
-		end
 		return randomAuthor
 	end
 
 	local function getCouplet()
 		local authorCouplet = ashaar[randomAuthor]
 		math.randomseed(os.time())
-		local randomCoupletIndex = math.random(1, #authorCouplet)
+		local randomCoupletIndex = math.random(#authorCouplet)
 		couplet = authorCouplet[randomCoupletIndex]
+
+		-- Change John_Smith to John Smith/format author's name after using in authorCouplet
+		if string.find(randomAuthor, "_") then
+			randomAuthor = randomAuthor.gsub(randomAuthor, "_", " ")
+		end
+
 		return couplet
 	end
 
