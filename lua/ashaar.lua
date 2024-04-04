@@ -36,7 +36,7 @@ local function main()
 	end
 
 	local function formatCouplet(string)
-		line1, line2 = string.match(string, "^(.-) : (.+)$")
+		line1, line2 = string.match(string, "^(.+) : (.+)$")
 		return line1, line2
 	end
 
