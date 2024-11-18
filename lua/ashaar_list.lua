@@ -140,6 +140,23 @@ local ashaar = {
 		"apne sar ik bala to leni thi : main ne vo zulf apne sar li hai",
 		"mil rahi ho baDe tapak ke saath : mujh ko yaksar bhula chuki ho kya",
 	},
+	Javed_Akhtar = {
+		"ġhalat bātoñ ko ḳhāmoshī se sunñā haamī bhar lenā : bahut haiñ fā.ede is meñ magar achchhā nahīñ lagtā",
+		"jidhar jaate haiñ sab jaanā udhar achchhā nahīñ lagtā : mujhe pāmāl rastoñ kā safar achchhā nahīñ lagtā",
+		"mujhe dushman se bhī ḳhuddārī kī ummīd rahtī hai : kisī kā bhī ho sar qadmoñ meñ sar achchhā nahīñ lagtā",
+		"tab ham donoñ vaqt churā kar laate the : ab milte haiñ jab bhī fursat hotī hai",
+		"yaad use bhī ek adhūrā afsāna to hogā : kal raste meñ us ne ham ko pahchānā to hogā",
+		"ūñchī imāratoñ se makāñ merā ghir gayā : kuchh log mere hisse kā sūraj bhī khā ga.e",
+		"aql ye kahtī hai duniyā miltī hai bāzār meñ : dil magar ye kahtā hai kuchh aur behtar dekhiye",
+		"har taraf shor usī naam kā hai duniyā meñ : koī us ko jo pukāre to pukāre kaise",
+		"yahī hālāt ibtidā se rahe : log ham se ḳhafā ḳhafā se rahe",
+		"is shahr meñ jiine ke andāz nirāle haiñ : hoñToñ pe latīfe haiñ āvāz meñ chhāle haiñ",
+		"tum ye kahte ho ki maiñ ġhair huuñ phir bhī shāyad : nikal aa.e koī pahchān zarā dekh to lo",
+		"maiñ pā sakā na kabhī is ḳhalish se chhuTkārā : vo mujh se jiit bhī saktā thā jaane kyuuñ haarā",
+		"tum baiThe ho lekin jaate dekh rahā huuñ : maiñ tanhā.ī ke din aate dekh rahā huuñ ",
+		"us ke bandoñ ko dekh kar kahiye : ham ko ummīd kyā ḳhudā se rahe",
+		"ek ye din jab apnoñ ne bhī ham se naata toḌ liyā : ek vo din jab peḌ kī shāḳheñ bojh hamārā sahtī thiiñ",
+	},
 }
 
 return ashaar
