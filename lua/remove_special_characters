@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+declare -A char_array
+
+char_array['ā']="a"
+char_array['ġ']="g"
+char_array['ī']="i"
+char_array['ḳ']="k"
+char_array['ñ']="n"
+
+for char in "${!char_array[@]}"; do
+	sed -i "s/${char}/${char_array[${char}]}/g" ./ashaar_list.lua
+done
