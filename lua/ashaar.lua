@@ -29,14 +29,14 @@ local function main()
 
 		-- Change John_Smith to John Smith/format author's name after using in authorCouplet
 		if string.find(randomAuthor, "_") then
-			randomAuthor = randomAuthor.gsub(randomAuthor, "_", " ")
+			randomAuthor = string.gsub(randomAuthor, "_", " ")
 		end
 
 		return couplet
 	end
 
-	local function formatCouplet(string)
-		line1, line2 = string.match(string, "^(.-) : (.+)$")
+	local function formatCouplet(coupletString)
+		line1, line2 = string.match(coupletString, "^(.-) : (.+)$")
 		return line1, line2
 	end
 
