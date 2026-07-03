@@ -184,17 +184,29 @@ local ashaar = {
 	},
 	-- Momin Khan Momin
 	Momin_Khan_Momin = {
-		"tum re paas hote ho goya : jab koi dusra nahin hota",
+		"tum mere paas hote ho goya : jab koi dusra nahin hota",
 		"vo jo ham in tum mein qarar tha tumhen yaad ho ke na yaad ho : vahi yaani vaada nibah ka tumhen yaad ho ke na yaad ho",
+		"Umr saari to kaTi ishq-e-butan men 'momin' : akhiri vaqt men kya khaak musalman honge",
 		"is shokhi ki ho savari kya : kabhi puchha kabhi takrar nahin",
-		"shar.amate ho mil kar mujh se ai but : qasam khuda ki achchhi baat hai",
+		"maiñ bhī kuchh ḳhush nahīñ vafā kar ke : tum ne achchhā kiyā nibāh na kī",
+		"tum hamare kisi tarah na hue : varna duniya men kya nahin hota",
+		"sharamate ho mil kar mujh se ai but : qasam khuda ki achchhi baat hai",
 		"vo bhi din the ki ham se yar the ham : ab kisi baat par bhi yar nahin",
+		"asar usko zara nahin hota : ranj raahat-fazaa nahin hota",
+		"haal-e-dil yaar ko likhun kyunkar : haath dil se juda nahin hota",
+		"kabhi hum mein tum mein bhi chah thi : kabhi hum se tum se bhi rah thi",
+		"kabhi hum bhi tum bhi the aashna : tumhen yaad ho ke na yaad ho",
+		"chaara-e-dil sivaae sabr nahin : so tumhaare sivaa nahin hota",
+		"kyun sune arz-e-muztar ai momin : sanam aakhir khuda nahin hota",
 	},
 	-- Wali Mohammad Wali
 	Wali_Mohammad_Wali = {
 		"zulf-e-mushkin ko hila kar voh jo guzra sar-e-baam : kuufr ki bu mahkae gai sarv-qad-e-islam",
 		"ji in ai but tira ya kufr basa hai ya islam : kabhi sajda kabhi but jaankaar karta hun",
 		"charaagh-e-toor sa raushan hai harf-e-ham nasheen apna : khaTakta hai jo dil in so kahe dete hain bayan apna",
+		"jise ishq ka tir kari lage : use zindagi kyun na bhaari lage",
+		"muflisi sab bahaar khoti hai : mard ka e'tibaar khoti hai",
+		"yaad karna har ghaDi tujh yaar ka : hai vazifa mujh dil-e-bimaar ka",
 	},
 }
 
