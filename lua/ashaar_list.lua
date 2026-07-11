@@ -188,7 +188,7 @@ local ashaar = {
 		"vo jo ham in tum mein qarar tha tumhen yaad ho ke na yaad ho : vahi yaani vaada nibah ka tumhen yaad ho ke na yaad ho",
 		"Umr saari to kaTi ishq-e-butan men 'momin' : akhiri vaqt men kya khaak musalman honge",
 		"is shokhi ki ho savari kya : kabhi puchha kabhi takrar nahin",
-		"maiñ bhī kuchh ḳhush nahīñ vafā kar ke : tum ne achchhā kiyā nibāh na kī",
+		"main bhi kuchh khush nahin vafa kar ke : tum ne achchha kiya nibah na ki",
 		"tum hamare kisi tarah na hue : varna duniya men kya nahin hota",
 		"sharamate ho mil kar mujh se ai but : qasam khuda ki achchhi baat hai",
 		"vo bhi din the ki ham se yar the ham : ab kisi baat par bhi yar nahin",
